@@ -1,0 +1,12 @@
+
+use('AVFX');
+
+db.users.deleteMany({})
+db.collections.deleteMany({})
+db.inst_listings.deleteMany({})
+db.market_events.deleteMany({})
+db.nft_details.deleteMany({})
+db.rental_listings.deleteMany({})
+db.sell_listings.deleteMany({})
+
+
